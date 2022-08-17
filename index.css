@@ -1,0 +1,145 @@
+body {
+    margin: 0 auto;
+    padding:0 ;
+    max-width: 550px;
+    max-height: 892px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* main styles */
+main{
+    /* background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%); */
+    
+
+}
+div{
+    
+}
+img{
+    max-width:100%;
+    display: block;
+    /* border-radius: 25px */
+    /* display: block; */
+    
+}
+
+header{
+    max-height: 81px;
+    /* border: 2px solid blue; */
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+button {
+    /* padding: 10px; */
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    background: inherit;
+}
+
+/* typography */
+h1 {
+    
+}
+
+
+/* specific sections  */
+
+
+.main {
+   
+}
+
+.image-section{
+    /* max-width: 500px; */
+    display: flex;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    /* border: 1px solid black; */
+    /* min-height: 751px;
+    max-height: 751px; */
+    
+    
+    
+    
+}
+/* .image-section img{
+    border-radius: 12px
+} */
+.dog-pic {
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+.badge {
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* code from example project */
+    width: 234px;
+    position: absolute;
+    /* top: 134px;
+    left: 32px; */
+    left: 20%;
+    top: 20%;
+    transform: rotate(-30deg);
+    
+    z-index: 2;
+    
+}
+
+.info {
+    position: absolute;
+    z-index: 3;
+    display: inline;
+    color: white;
+    padding: 0px;
+    margin-left: 20px;
+    top: 350px
+    
+}
+.info, h3 p {
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+
+.btn-section {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.nav-bar {
+    display: flex;
+    /* border: 1px dashed green;
+    background: blue; */
+    justify-content: space-between;
+    
+}
+.nav-icon {
+    height: 2.5rem;
+    padding: 1rem;
+    
+}
+
+.btn {
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    padding: .5rem;
+    box-shadow: -5px 10px 30px gray ;
+}
+.hidden {
+    display: block;
+}

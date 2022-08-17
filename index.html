@@ -1,0 +1,72 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        
+        
+        <header class="header">
+           <nav class="nav-bar">
+             <!-- <ul>
+                <li> <img class="" src="images/icon-profile.png"/> </li>
+                <li> <img src="images/logo.png"/> </li>
+                <li> <img src="images/icon-chat.png"/> </li>
+            </ul> -->
+            <a href="#"><img class="nav-icon" id="icon-profile" src="images/icon-profile.png"/> </a>
+            <a ><img class="nav-icon" id="logo" src="images/logo.png"/> </a>
+            <a href="#"><img class="nav-icon" id="icon-chat" src="images/icon-chat.png"/> </a>
+            
+           </nav>
+           
+        </header>
+        
+        
+        
+        <main class="main"> 
+            
+            <div class="dog-status">
+                 <img class="badge" id="yes-badge" style="display:none;" src="images/badge-like.png"/>
+                <img class="badge" id="no-badge" style="display:none;" src="images/badge-nope.png"/>    
+            </div>
+            
+             <div class="image-section">
+                 <!-- The new image rendering will go here -->
+                 <div class="dog-card" id="dogCard"></div>
+             </div> 
+             
+           
+        <div class="btn-section">
+            <button class="btn nope-btn" id="noBtn" > <img src="./images/icon-cross.png"/>
+            </button>
+            <button class="btn yes-btn" id="yesBtn" > <img src="./images/icon-heart.png"/> </button>
+            
+        </div>
+        
+        </main>
+        
+        <script src="/index.js" type="module" defer></script>
+    </body>
+</html>
+
+
+
+            <!-- <div class="image-section"> 
+                <img class="badge" id="yes-badge" style="display:none;" src="images/badge-like.png"/>
+                <img class="badge" id="no-badge" style="display:none;" src="images/badge-nope.png"/>
+                
+                <!-- Current dog card with name and bio (Static info)-->
+                <!-- <img class="dog-pic" id="dogPic" src="/images/dog-rex.jpg"/> 
+                <div class="info">
+                     <h3 id="name" >NAME HERE </h3>
+                     <p id="bio"> Discription </p>
+                </div>
+                 -->
+                <!-- New experimental div and ID for current dog card  -->      
+<!--           </div> -->
+                
+                
